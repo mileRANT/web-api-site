@@ -49,25 +49,17 @@ main{
     padding: 0;
 }
 
-.pair{
-    width: 100%;
-    display: flex;
+.quote-of-day-response{
+    width: 70%;
+    padding: 5%;
     margin: auto;
     align-items: center;
 }
-.pair > .color-box{
-    width: 50%;
-    height: 50px;
-    border: 1px solid black;
-    text-align: center;
-    padding: 1.1%;
-    margin: 0;
+
+.quote-text{
+    font-size: 1.2rem;
 }
-.pair > .color-box-value{
-    width: 50%;
-    height: 50px;
-    border: 1px solid black;
-    text-align: center;
-    padding: 1.1%;
-    margin: 0;
+.quote-author{
+    color: gray;
+    text-align: right;
 }
